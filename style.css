@@ -1,0 +1,117 @@
+body {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style:none;
+        box-sizing: border-box;
+        background-color: #E3E3FF;
+}
+
+html {
+    font-size:62.5%;
+}
+
+
+/*.fondo {
+    width:100vw;
+    height:100vh;
+    background-image: /
+     */
+
+.pardo {
+    width: 30vw;
+    height: 50vh;
+    background-color: #9D7049;
+    border:3px black;
+    font-family: sans-serif;
+    border-radius:20px;
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    padding:20px;
+        /* z-index: 2; esto es para traer al frente */
+}
+
+.polar {
+    width: 20vw;
+    height: 35vh;
+    background-color:#FBFCEE;
+    border:3px black;
+    font-family: sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    top: 30vh;
+    right: 20vw;
+    padding:20px;
+}
+.pardo_img {
+    width:80%;
+    max-width: 180px;
+    display: block;
+    margin:auto;
+}
+
+.polar_img {
+    width:70%;
+    max-width: 90px;
+    display: block;
+    margin:5px auto;
+}
+
+.oso_pardo_name {
+    width: 65%;
+    height: 12%;
+    background-color: #bd814d;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding:3px;
+    text-align: center;
+    font-size: 2.3rem;
+    position: absolute;
+    top: -6%;
+    left:17.5%;
+}
+
+.oso_pardo_name_hijo {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.oso_polar_name {
+    width: 65%;
+    height: 17%;
+    background-color: #f6fabf;
+    color: black;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding:3px;
+    text-align: center;
+    font-size: 2rem;
+    position:absolute;
+    top: -9%;
+    left:17.5%;
+    /* vertical-align: middle;*/
+}
+
+.oso_polar_name_hijo {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.oso_pardo_box {
+    margin-top:20px;
+    padding-left: 0px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.oso_polar_box {
+    margin-top: 20px;
+    padding-left: 0px;
+    font-size: 1.4rem;
+    text-align: center;
+}
